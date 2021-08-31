@@ -1,3 +1,7 @@
+ li:nth-child(odd){
+     color: bisque
+ }
+
 body{
     background-color: bisque;
     margin: 0px;
@@ -96,7 +100,44 @@ body{
     height: 35px;
     background-color: darksalmon;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
     border-bottom: 1px solid black;
- 
+
+}
+.box1{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    padding : 10px 20px;
+    margin-left: 100px;
+    
+
+}
+.box1 img{
+    height: 100px;
+    width: 300px;
+    border: 2px solid #000;
+    
+
+}
+.box1 h4{
+    color: lightcoral;  
+}
+.box2{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    float: right;
+    margin: 5px;
+    padding: 10px 20px;
+    margin-left: 100px;
+
+    }
+
+.box2 h5{
+    color: lightcoral;
 }
